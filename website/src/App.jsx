@@ -243,7 +243,7 @@ export default function App() {
           <div className="footer-links">
             <a href="https://github.com/SahilSidhu7" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/sahil-sidhu-ai/">LinkedIn</a>
-            <a href="#features">Privacy</a>
+            <a href="privacy.html" target="_blank" rel="noreferrer">Privacy</a>
             <a href="#sandbox">Developer Specs</a>
           </div>
         </div>

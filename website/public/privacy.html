@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — urlStash</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <style>
+        :root {
+            --beige: #f5f0e8;
+            --sand: #e8e0d0;
+            --ink: #1a1714;
+            --muted: #6b6560;
+            --accent: #3d3530;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: var(--beige);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        nav {
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--sand);
+        }
+
+        .logo {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.25rem;
+            color: var(--ink);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 300;
+            margin-left: 8px;
+        }
+
+        main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 4rem 2rem 6rem;
+        }
+
+        .eyebrow {
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 400;
+            line-height: 1.15;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+        }
+
+        .updated {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-bottom: 3rem;
+        }
+
+        .highlight-box {
+            background: var(--sand);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 3rem;
+            font-size: 1rem;
+            color: var(--accent);
+        }
+
+        .highlight-box strong {
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--ink);
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            font-size: 0.975rem;
+            color: var(--ink);
+            opacity: 0.85;
+            margin-bottom: 0.75rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0.75rem;
+        }
+
+        ul li {
+            font-size: 0.975rem;
+            color: var(--ink);
+            opacity: 0.85;
+            padding: 0.3rem 0 0.3rem 1.25rem;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: var(--muted);
+            border-top: 1px solid var(--sand);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="/" class="logo">urlStash <span>Privacy Policy</span></a>
+    </nav>
+
+    <main>
+        <p class="eyebrow">Legal</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: June 2026</p>
+
+        <div class="highlight-box">
+            <strong>The short version</strong>
+            urlStash collects no personal data whatsoever. Everything stays on your device. We have no servers, no
+            analytics, no tracking, and no accounts.
+        </div>
+
+        <section>
+            <h2>Overview</h2>
+            <p>urlStash is a Chrome browser extension that helps you organize, stash, and restore browser tabs using
+                nested folders. It operates entirely offline and locally within your browser.</p>
+            <p>This privacy policy applies to the urlStash Chrome Extension and its companion website at
+                urlstash.onrender.com.</p>
+        </section>
+
+        <section>
+            <h2>Data we collect</h2>
+            <p>We collect <strong>nothing</strong>. Specifically, urlStash does not collect, transmit, store remotely,
+                or share:</p>
+            <ul>
+                <li>Your browsing history or tab URLs</li>
+                <li>Personal information of any kind</li>
+                <li>Usage statistics or analytics</li>
+                <li>Crash reports or telemetry</li>
+                <li>Any data that leaves your device</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Local storage</h2>
+            <p>urlStash uses Chrome's built-in <code>chrome.storage.local</code> API solely to save your stashed tabs,
+                folder names, and theme preference. This data:</p>
+            <ul>
+                <li>Exists only on your local device</li>
+                <li>Is never synced to any external server</li>
+                <li>Is never read by us or any third party</li>
+                <li>Can be deleted at any time by uninstalling the extension</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Permissions used</h2>
+            <p>urlStash requests the following Chrome permissions, each used strictly for local functionality:</p>
+            <ul>
+                <li><strong>tabs</strong> — to read the URLs and titles of your open tabs when you stash them or save a
+                    session state</li>
+                <li><strong>activeTab</strong> — to read the currently active tab when you click "Stash Page"</li>
+                <li><strong>storage</strong> — to save your stashed folders and settings locally on your device</li>
+            </ul>
+            <p>None of this information is transmitted anywhere. It stays entirely within your browser.</p>
+        </section>
+
+        <section>
+            <h2>Third-party services</h2>
+            <p>urlStash does not integrate with, load from, or communicate with any third-party services, APIs, or
+                analytics platforms.</p>
+        </section>
+
+        <section>
+            <h2>Children's privacy</h2>
+            <p>urlStash does not collect data from anyone, including children under the age of 13.</p>
+        </section>
+
+        <section>
+            <h2>Changes to this policy</h2>
+            <p>If this policy ever changes, the updated version will be posted at this URL with a revised date. Since we
+                collect no data, meaningful changes are unlikely.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Questions? Reach out via <a href="https://github.com/SahilSidhu7" target="_blank"
+                    rel="noopener">GitHub</a> or <a href="https://www.linkedin.com/in/sahil-sidhu-ai/" target="_blank"
+                    rel="noopener">LinkedIn</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 urlStash · MIT License · <a href="/">Back to home</a>
+    </footer>
+
+</body>
+
+</html>
