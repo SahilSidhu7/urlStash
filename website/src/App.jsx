@@ -23,7 +23,6 @@ export default function App() {
         <nav className="site-nav">
           <a href="#features">Features</a>
           <a href="#sandbox">Interactive Demo</a>
-          <a href="#how-it-works">How It Works</a>
         </nav>
 
         <div className="header-controls">
@@ -64,7 +63,7 @@ export default function App() {
             Organize your browser into sleek, custom-nested folders, stash entire browser states in one click, and restore your clarity with a clean workspace instantly. Beautiful, responsive, and distraction-free.
           </p>
           <div className="hero-ctas">
-            <button className="btn-hero-primary" onClick={() => alert('🚀 The extension hasn’t launched yet — we’re currently gathering feedback and early reviews to make it even better before release. Stay tuned!')}>
+            <button className="btn-hero-primary" onClick={() => window.open('https://chromewebstore.google.com/detail/magdoocmjmaalkjlmkjgkoabcipnacgk?utm_source=item-share-cb', '_blank')}>
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
                 <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
               </svg>
@@ -184,6 +183,7 @@ export default function App() {
       </section>
 
       {/* How it works Section */}
+      {/*
       <section id="how-it-works" className="how-it-works-section">
         <div className="section-header">
           <h2 className="section-title">Install in 1 Simple Steps</h2>
@@ -196,7 +196,7 @@ export default function App() {
             <h3>Download extension</h3>
             <p>Click the download button below to download the extension.</p>
             <br></br>
-            <button className="btn-hero-primary" onClick={() => alert('🚀 The extension hasn’t launched yet — we’re currently gathering feedback and early reviews to make it even better before release. Stay tuned!')}>
+            <button className="btn-hero-primary" onClick={() => window.open('https://chromewebstore.google.com/detail/magdoocmjmaalkjlmkjgkoabcipnacgk?utm_source=item-share-cb', '_blank')}>
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
                 <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
               </svg>
@@ -214,15 +214,16 @@ export default function App() {
             <div className="step-badge">3</div>
             <h3>Drag & Drop</h3>
             <p>Drag the <code>extension</code> folder anywhere onto the extensions dashboard. Done! Pin urlStash to your toolbar.</p>
-          </div> */}
+          </div>
         </div>
       </section>
+      */}
 
       {/* Bottom CTA Block */}
       <section className="bottom-cta-banner">
         <h2>Restore calm to your browsing experience.</h2>
         <p>No account. No telemetry. Fully local and private. Just your tabs, stashed beautifully.</p>
-        <button className="btn-cta-large" onClick={() => alert('🚀 The extension hasn’t launched yet — we’re currently gathering feedback and early reviews to make it even better before release. Stay tuned!')}>
+        <button className="btn-cta-large" onClick={() => window.open('https://chromewebstore.google.com/detail/magdoocmjmaalkjlmkjgkoabcipnacgk?utm_source=item-share-cb', '_blank')}>
           Add to Chrome Browser — It's Free
         </button>
       </section>
